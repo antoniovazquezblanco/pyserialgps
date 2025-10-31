@@ -28,3 +28,12 @@ with module:
     while True:
         print(module.read())
 ```
+
+## Hardware
+
+Any hardware may be supported if the serial port information is provided but pyserialgps automatically detects the following models:
+
+| Manufacturer | Model   | VID    | PID    |
+| ------------ | ------- | ------ | ------ |
+| G-Mouse      | VK-162  | 0x1546 | 0x01a7 |
+| GlobalSat    | ND-100S | 0x067B | 0x2303 |
